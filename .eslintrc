@@ -1,0 +1,14 @@
+{
+  "extends": ["airbnb", "airbnb/hooks"],
+  "globals": {
+    "document": "readonly",
+    "window": "readonly"
+  },
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "import/prefer-default-export": 0,
+    "react/prop-types": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "react/jsx-props-no-spreading": 0
+  }
+}
